@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-var Mot_1 = require("../Interface/Mot");
 var MotVideInductif_1 = require("./MotVideInductif");
 var MotMotInductif_1 = require("./MotMotInductif");
+var Mot_1 = require("../Interface/Mot");
 var CaractereMotInductif = /** @class */ (function (_super) {
     __extends(CaractereMotInductif, _super);
     function CaractereMotInductif(caractere, reste) {
@@ -44,5 +44,5 @@ var CaractereMotInductif = /** @class */ (function (_super) {
     };
     CaractereMotInductif.FAB = MotVideInductif_1.MotVideInductif.SINGLETON;
     return CaractereMotInductif;
-}(Mot_1["default"]));
+}(Mot_1.Mot));
 exports.CaractereMotInductif = CaractereMotInductif;

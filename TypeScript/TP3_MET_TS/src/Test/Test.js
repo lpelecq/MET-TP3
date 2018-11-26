@@ -62,3 +62,4 @@ var Test = /** @class */ (function () {
     return Test;
 }());
 exports.Test = Test;
+Test.main();

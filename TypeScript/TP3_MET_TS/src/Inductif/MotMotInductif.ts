@@ -1,7 +1,7 @@
 import {IterateurMot} from "../Interface/IterateurMot";
-import Mot from "../Interface/Mot";
 import {MotVideInductif} from "./MotVideInductif";
 import {CaractereMotInductif} from "./CaractereMotInductif";
+import {Mot} from "../Interface/Mot";
 
 export class MotMotInductif extends Mot {
 

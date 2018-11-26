@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-var Mot_1 = require("../Interface/Mot");
 var MotVideInductif_1 = require("./MotVideInductif");
 var CaractereMotInductif_1 = require("./CaractereMotInductif");
+var Mot_1 = require("../Interface/Mot");
 var MotMotInductif = /** @class */ (function (_super) {
     __extends(MotMotInductif, _super);
     function MotMotInductif(gauche, droite) {
@@ -52,5 +52,5 @@ var MotMotInductif = /** @class */ (function (_super) {
         return new MotMotInductif(this, droite);
     };
     return MotMotInductif;
-}(Mot_1["default"]));
+}(Mot_1.Mot));
 exports.MotMotInductif = MotMotInductif;

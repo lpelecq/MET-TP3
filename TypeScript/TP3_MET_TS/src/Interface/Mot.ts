@@ -3,7 +3,7 @@ import {VisiteurMot} from "./VisiteurMot";
 import {IterateurMotInductif} from "../Inductif/IterateurMotInductif";
 import {IterateurMotiteratif} from "../Iteratif/IterateurMotiteratif";
 
-export default abstract class Mot implements Iterable<string> {
+export abstract class Mot implements Iterable<string> {
 
     // Sélecteurs
     casVide(): boolean {

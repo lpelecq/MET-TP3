@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-var Mot_1 = require("../Interface/Mot");
 var MotVideIteratif_1 = require("./MotVideIteratif");
 var CaractereMotIteratif_1 = require("./CaractereMotIteratif");
+var Mot_1 = require("../Interface/Mot");
 var MotMotIteratif = /** @class */ (function (_super) {
     __extends(MotMotIteratif, _super);
     function MotMotIteratif(gauche, droite) {
@@ -62,5 +62,5 @@ var MotMotIteratif = /** @class */ (function (_super) {
     };
     MotMotIteratif.FAB = MotVideIteratif_1.MotVideIteratif.SINGLETON;
     return MotMotIteratif;
-}(Mot_1["default"]));
+}(Mot_1.Mot));
 exports.MotMotIteratif = MotMotIteratif;

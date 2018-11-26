@@ -1,10 +1,11 @@
-import Mot from "../Interface/Mot";
+
 import {CaractereMotIteratif} from "./CaractereMotIteratif";
 import {MotMotIteratif} from "./MotMotIteratif";
+import {Mot} from "../Interface/Mot";
 
 export class MotVideIteratif extends Mot {
 
-    static SINGLETON: any;
+    public static SINGLETON: MotVideIteratif = new MotVideIteratif();
 
     public casVide(): boolean {
         return true;

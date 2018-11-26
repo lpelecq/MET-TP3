@@ -1,10 +1,10 @@
-import Mot from "../Interface/Mot";
 import {CaractereMotInductif} from "./CaractereMotInductif";
 import {MotMotInductif} from "./MotMotInductif";
+import {Mot} from "../Interface/Mot";
 
 export class MotVideInductif extends Mot {
 
-    static SINGLETON: any;
+    public static SINGLETON: MotVideInductif = new MotVideInductif();
 
     public casVide(): boolean {
         return true;

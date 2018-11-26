@@ -1,4 +1,5 @@
-import Mot from "./Mot";
+import {Mot} from "./Mot";
+
 
 export interface IterateurMot extends Iterator<string> {
 

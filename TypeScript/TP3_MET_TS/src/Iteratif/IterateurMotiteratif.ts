@@ -1,6 +1,6 @@
 import {IterateurMot} from "../Interface/IterateurMot";
-import Mot from "../Interface/Mot";
 import {MotMotInductif} from "../Inductif/MotMotInductif";
+import {Mot} from "../Interface/Mot";
 
 export class IterateurMotiteratif implements IterateurMot {
 

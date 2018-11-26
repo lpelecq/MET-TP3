@@ -74,4 +74,4 @@ var Mot = /** @class */ (function () {
     };
     return Mot;
 }());
-exports["default"] = Mot;
+exports.Mot = Mot;

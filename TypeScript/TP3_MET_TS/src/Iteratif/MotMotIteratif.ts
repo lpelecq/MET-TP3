@@ -1,6 +1,7 @@
-import Mot from "../Interface/Mot";
+
 import {MotVideIteratif} from "./MotVideIteratif";
 import {CaractereMotIteratif} from "./CaractereMotIteratif";
+import {Mot} from "../Interface/Mot";
 
 export class MotMotIteratif extends Mot {
 

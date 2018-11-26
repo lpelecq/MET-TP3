@@ -1,4 +1,3 @@
-import Mot from "../Interface/Mot";
 import {CaractereMotInductif} from "../Inductif/CaractereMotInductif";
 import {TailleIteratif} from "../Iteratif/TailleIteratif";
 import {RepresentationIteratif} from "../Iteratif/RepresentationIteratif";
@@ -7,6 +6,7 @@ import {TailleInductif} from "../Inductif/TailleInductif";
 import {RepresentationInductif} from "../Inductif/RepresentationInductif";
 import {ToLowerCaseInductif} from "../Inductif/ToLowerCaseInducif";
 import {CaractereMotIteratif} from "../Iteratif/CaractereMotIteratif";
+import {Mot} from "../Interface/Mot";
 
 export class Test {
 
@@ -84,7 +84,7 @@ export class Test {
     }
 }
 
-
+Test.main();
 
 
 

@@ -13,9 +13,9 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-var Mot_1 = require("../Interface/Mot");
 var CaractereMotInductif_1 = require("./CaractereMotInductif");
 var MotMotInductif_1 = require("./MotMotInductif");
+var Mot_1 = require("../Interface/Mot");
 var MotVideInductif = /** @class */ (function (_super) {
     __extends(MotVideInductif, _super);
     function MotVideInductif() {
@@ -33,6 +33,7 @@ var MotVideInductif = /** @class */ (function (_super) {
     MotVideInductif.prototype.creerMotVide = function () {
         return MotVideInductif.SINGLETON;
     };
+    MotVideInductif.SINGLETON = new MotVideInductif();
     return MotVideInductif;
-}(Mot_1["default"]));
+}(Mot_1.Mot));
 exports.MotVideInductif = MotVideInductif;

@@ -1,6 +1,7 @@
-import Mot from "../Interface/Mot";
+
 import {MotVideInductif} from "./MotVideInductif";
 import {MotMotInductif} from "./MotMotInductif";
+import {Mot} from "../Interface/Mot";
 
 
 export class CaractereMotInductif extends Mot {
